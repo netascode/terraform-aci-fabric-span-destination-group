@@ -35,7 +35,7 @@ module "aci_fabric_span_destination_group" {
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.3.0 |
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.0.0 |
 | <a name="requirement_aci"></a> [aci](#requirement\_aci) | >= 2.0.0 |
 
 ## Providers
@@ -67,7 +67,7 @@ module "aci_fabric_span_destination_group" {
 | Name | Description |
 |------|-------------|
 | <a name="output_dn"></a> [dn](#output\_dn) | Distinguished name of `spanDestGrp` object. |
-| <a name="output_name"></a> [name](#output\_name) | SPAN destination group name. |
+| <a name="output_name"></a> [name](#output\_name) | Fabric SPAN destination group name. |
 
 ## Resources
 

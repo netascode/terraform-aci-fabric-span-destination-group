@@ -5,5 +5,5 @@ output "dn" {
 
 output "name" {
   value       = aci_rest_managed.spanDestGrp.content.name
-  description = "SPAN destination group name."
+  description = "Fabric SPAN destination group name."
 }

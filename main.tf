@@ -17,6 +17,7 @@ resource "aci_rest_managed" "spanDest" {
 }
 
 resource "aci_rest_managed" "spanRsDestEpg" {
+  count      = var.tenant != "" && var.application_profile != "" && var.endpoint_group != "" ? 1 : 0
   dn         = "${aci_rest_managed.spanDest.id}/rsdestEpg"
   class_name = "spanRsDestEpg"
   content = {
